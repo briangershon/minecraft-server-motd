@@ -1,5 +1,5 @@
-name: PluginDemo
-main: com.briangershon.demo.App
-description: Plugin Demo
+name: Motd3t3n
+main: com.briangershon.motd_3t3n.App
+description: Minecraft server ping (motd) plugin for 3T3N server
 version: ${project.version}
 api-version: 1.13
