@@ -19,7 +19,7 @@ public class App extends JavaPlugin implements Listener {
     @EventHandler
 	public void onPing(ServerListPingEvent e) {
 		// e.setMaxPlayers(16);
-		e.setMotd(ChatColor.AQUA.toString() + ChatColor.BOLD.toString() + "Marble Machines are so Satisfying" + "\n" + ChatColor.RESET.toString() + ChatColor.RED.toString() + ChatColor.ITALIC.toString() + "Creative mode is a " + ChatColor.RESET.toString() + ChatColor.RED.toString() + ChatColor.BOLD.toString() + "Privilege");
+		e.setMotd(ChatColor.GREEN.toString() + ChatColor.BOLD.toString() + "New stuff coming to Turtletown!" + "\n" + ChatColor.RESET.toString() + ChatColor.DARK_PURPLE.toString() + ChatColor.ITALIC.toString() + ChatColor.UNDERLINE.toString() + "More ranks coming to the server soon!");
 
 		try {
 			e.setServerIcon(Bukkit.loadServerIcon(new File("3t3n-icon.png")));
